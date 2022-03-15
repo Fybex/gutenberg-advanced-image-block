@@ -47,12 +47,12 @@ export default function Edit(props) {
 			onChange={onChangeContent}
 			value={content}
 			placeholder="Title..."
-			style={{ margin: "8px 0", textAlign: "center" }}
+			className="img-title"
 		/>
 	)
 		
 	return (
-		<div className="img-wrapper" {...useBlockProps()}>
+		<div {...useBlockProps()}>
 			{
 				props.attributes.imgURL ? (
 					<>
