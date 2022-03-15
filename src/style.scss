@@ -1,0 +1,35 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-create-block-advanced-image-block {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+
+	.btn-upload {
+		width: 100%;
+		justify-content: center;
+	}
+}
+
+.entry-content h1,
+.entry-content h2,
+.entry-content h3,
+.entry-content h4,
+.entry-content h5,
+.entry-content h6
+{
+	margin: 8px 0 !important;
+	text-align: center !important;
+}
+
+.img-wrapper {
+	img {
+		width: 100%;
+	}
+}
