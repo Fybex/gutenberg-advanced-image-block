@@ -13,7 +13,7 @@ export default function save(props) {
 	const HeadingTag = 'h' + level;
 
 	return (
-		<div className="img-wrapper">
+		<div className="img-wrapper" {...useBlockProps.save()}>
 			<img
 				src={imgURL}
 				alt={imgAlt}
