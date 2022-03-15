@@ -17,19 +17,9 @@
   width: 100%;
   justify-content: center;
 }
-
-.entry-content h1,
-.entry-content h2,
-.entry-content h3,
-.entry-content h4,
-.entry-content h5,
-.entry-content h6 {
+.wp-block-create-block-advanced-image-block .img-title {
   margin: 8px 0 !important;
-  text-align: center !important;
-}
-
-.img-wrapper img {
-  width: 100%;
+  text-align: center;
 }
 
 /*# sourceMappingURL=style-index.css.map*/
